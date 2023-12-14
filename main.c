@@ -37,7 +37,7 @@ int main(__attribute__((unused)) int argc, char const *argv[])
 		else if (!strcmp(opcode, "push"))
 		{
 			n = strtok(NULL, DELIMATOR);
-			push(&stack, n, line_number);
+			_push(&stack, n, line_number);
 		}
 		else
 			find_opcode(&stack, opcode, line_number);
