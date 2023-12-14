@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+#include <string.h>
+#include "monty.h"
 /**
 * main - Process Monty byte codes from a file passed in as an argument
 * @argc: size of argv
