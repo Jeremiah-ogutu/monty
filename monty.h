@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-
+#define DELIMATOR "\n\t\r"
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
