@@ -1,4 +1,5 @@
 #include "monty.h"
+#include <stdio.h>
 
 /**
 * main - Process Monty byte codes from a file passed in as an argument
