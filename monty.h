@@ -41,8 +41,10 @@ typedef struct instruction_s
 
 
 void _push(stack_t **stack, char *n, unsigned int line_number);
-void pop_p(stack_t **stack, unsigned int line_number)
+void pop_p(stack_t **stack, unsigned int line_number);
 void print(stack_t **stack, unsigned int __attribute__((unused)) line_number);
+void pall(stack_t **stack, unsigned int __attribute__((unused)) line_number);
+
 
 
 
