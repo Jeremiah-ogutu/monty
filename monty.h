@@ -41,12 +41,14 @@ typedef struct instruction_s
 } instruction_t;
 
 
-
+extern instruction_t opcodes[];
 void _push(stack_t **stack, char *n, unsigned int line_number);
 void pop_p(stack_t **stack, unsigned int line_number);
 void print(stack_t **stack, unsigned int __attribute__((unused)) line_number);
 void pall(stack_t **stack, unsigned int __attribute__((unused)) line_number);
 void swap(stack_t **stack, unsigned int line_number);
+int find_opcode(stack_t **stack, char *opcode, int line_number)
+
 
 
 
